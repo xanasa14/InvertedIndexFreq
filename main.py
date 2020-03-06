@@ -1,20 +1,21 @@
 import nltk
 sent = []
-text = "One Dos. Dos Dos Tres. Cuatro"
+text = "One Dos. Dos Dos. Tres. Cuatro One Cuatro."
 tokens = nltk.word_tokenize(text)
 sentences = 0
 finalList = []
 tmp = []
-counts = dict()
+
 for word in tokens:
     if(word != "."):
         sent.append(word)
         #print(word, sentences)
     if(word == "."):
         sentences += 1
-        counts.clear()
+        counts = dict()
         for word in sent:
             #print(sentences)
+            print(word)
             if word in counts:
                 counts[word] += 1
             else:
@@ -22,18 +23,50 @@ for word in tokens:
                 #counts[word] = str(sentences)
         tmp.append(counts)
         tmp.append(sentences)
-          
+        sent=[]
+        #del counts["One"]
+        #counts ={}
+        #counts.clear()  
         #print(counts)
 print(tmp)        
- 
- 
- 
- 
  
  
 for i in range(len (tmp)):
     if (i %2 ==0):
         for key,val in tmp[0].items():
-            print (key, ":", val, tmp[i+1])
+            print (key, ":", val, tmp[i+1], "times")
     else: 
         continue
+ 
+ 
+ 
+for i in range(len( tmp)-1):
+    if(i %2 ==0):
+        for k, v in tmp[i].items():
+            print (k, v)
+            finalList.append(k)
+            finalList.append(v)
+            finalList.append(tmp[i+1])
+        #print(tmp[i]) 
+        #print(tmp[i+1])
+        
+        
+ for i in tmp:
+    print (i)
+    
+    
+for i in range(len( tmp)-1):
+    if(i %2 ==0):
+        for k, v in tmp[i].items():
+            print (k, v)
+            finalList.append(k)
+            finalList.append(v)
+            finalList.append(tmp[i+1])
+        #print(tmp[i]) 
+        #print(tmp[i+1])
+        
+counter = 0 
+for i in range(len(finalList)): 
+    if(i%3==0):
+        print(finalList[i], " : " ,finalList[i+1], " -> ", finalList[i+2])
+    counter +=1
