@@ -55,10 +55,10 @@ for i in range(len(finalList)):
     if(i%3==0):
         print(finalList[i], " :" , "[(", finalList[i+1], " -> ", finalList[i+2],")]")
         if (finalList[i] not in finalDict):
-            tmp = "(" + str(finalList[i+1]) + ":" + str(finalList[i+2]) + ")"
+            tmp = "(" + str(finalList[i+2]) + ":" + str(finalList[i+1]) + ")"
             finalDict[finalList[i]]= [tmp]
         else:
-            tmp = "(" + str(finalList[i+1]) + ":" + str(finalList[i+2]) + ")"
+            tmp = "(" + str(finalList[i+2]) + ":" + str(finalList[i+1]) + ")"
             finalDict[finalList[i]].append(tmp)
             
             
