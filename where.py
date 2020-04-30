@@ -1,1 +1,3 @@
-print("Where")
+class whereX:
+
+    print("Where")

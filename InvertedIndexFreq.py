@@ -1,4 +1,4 @@
-class MyClass:
+class InvertedIndexFreq:
 
     import nltk
     sent = []
