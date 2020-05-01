@@ -1,1 +1,1 @@
-Indexing Frequency Helper
+Indexing Frequency Helper Version 3
