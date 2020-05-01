@@ -1,4 +1,3 @@
-InvertedIndexFreq.py
 README.md
 setup.py
 InvertedIndexFreq.egg-info/PKG-INFO
