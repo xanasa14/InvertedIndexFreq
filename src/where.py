@@ -1,3 +1,0 @@
-class whereX:
-
-    print("Where")

@@ -1,0 +1,6 @@
+README.md
+setup.py
+InvertedIndexFreq.egg-info/PKG-INFO
+InvertedIndexFreq.egg-info/SOURCES.txt
+InvertedIndexFreq.egg-info/dependency_links.txt
+InvertedIndexFreq.egg-info/top_level.txt

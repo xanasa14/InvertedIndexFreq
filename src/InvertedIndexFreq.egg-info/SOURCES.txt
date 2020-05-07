@@ -4,3 +4,8 @@ InvertedIndexFreq.egg-info/PKG-INFO
 InvertedIndexFreq.egg-info/SOURCES.txt
 InvertedIndexFreq.egg-info/dependency_links.txt
 InvertedIndexFreq.egg-info/top_level.txt
+src/InvertedIndexFreq.py
+src/InvertedIndexFreq.egg-info/PKG-INFO
+src/InvertedIndexFreq.egg-info/SOURCES.txt
+src/InvertedIndexFreq.egg-info/dependency_links.txt
+src/InvertedIndexFreq.egg-info/top_level.txt
