@@ -45,7 +45,7 @@ def lxml_to_text(html):
 
 #Get the folder full of html pages and a path for the output with the InvertedIndexFreq revealed
 #'C:/Users/pages/', 'C:/Users/output/'
-InvertedIndexFreqHelper(a,b):
+def InvertedIndexFreqHelper(a,b):
     entries = os.listdir(a)
 
     print("***")
