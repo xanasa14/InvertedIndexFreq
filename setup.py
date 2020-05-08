@@ -3,7 +3,7 @@ with open("README.md", "r") as fh:
     long_description = fh.read()
 setuptools.setup(
      name='InvertedIndexFreq',
-     version='0.7',
+     version='0.8',
      py_modules = ["InvertedIndexFreq"] ,
      package_dir={'':"src"},
      author="Xavier Navarro",
